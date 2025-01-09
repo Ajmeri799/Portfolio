@@ -81,6 +81,7 @@ export const Education = [
   },
 ];
 // Social icons
+
 export const sociallist = [
   {
     icon: "/social/github.svg",
