@@ -3,7 +3,6 @@ import { FaArrowDown } from "react-icons/fa";
 import { Button } from "./ui/moving-border";
 import Image from "next/image";
 import Link from "next/link";
-
 function About() {
   return (
     <div className="mt-3 mb-10 py-10 px-1 md:px-14" id="about">
