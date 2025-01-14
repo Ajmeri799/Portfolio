@@ -3,6 +3,11 @@ export const techStacks = [
     icon: "/techstack/HTML.svg",
     techname: "HTML5",
   },
+    {
+    icon: "/social/github.svg",
+    alt: "github",
+    link: "https://github.com/ajmeri",
+  },
   {
     icon: "/techstack/CSS3.svg",
     techname: "CSS3",
