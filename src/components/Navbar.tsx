@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ export default function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        " absolute top-10 inset-x-0 max-w-2xl mx-auto z-50",
+        " absolute top-3 sm:top-10 inset-x-0 max-w-2xl m-2 sm:mx-auto z-50",
         className
       )}
     >
@@ -17,10 +17,10 @@ export default function Navbar({ className }: { className?: string }) {
         <Link href={"/"}>
           <MenuItem setActive={setActive} active={active} item="Home" />
         </Link>
-        <Link href={"/About"}>
+        <Link href={"#about"}>
           <MenuItem setActive={setActive} active={active} item="About" />
         </Link>
-        <Link href={"/projects"}>
+        <Link href={"/#project"}>
           <MenuItem setActive={setActive} active={active} item="Projects" />
         </Link>
         <Link href={"/contact"}>
