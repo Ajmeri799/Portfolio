@@ -98,7 +98,7 @@ export const Education = [
 
 export const social = [
   {
-    icon: "/social/github.svg",
+    icon: "/social/Github.svg",
     alt: "github",
     link: "https://github.com/ajmeri799",
   },
