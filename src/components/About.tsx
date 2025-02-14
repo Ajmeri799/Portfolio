@@ -4,7 +4,6 @@ import { FaArrowDown } from "react-icons/fa";
 import { Button } from "./ui/moving-border";
 import Image from "next/image";
 import Link from "next/link";
-
 function About() {
   return (
     <div className="mt-10 md:mt-3 md:mb-10 py-10 px-1 md:px-14" id="about">
@@ -18,7 +17,7 @@ function About() {
           alt="me"
           width={400}
           height={600}
-          className="hidden md:block"
+          className="hidden md:block "
         />
         <div className="px-5 md:px-20 py-8 sm:py-20  md:py-28">
           <h1 className="text-xl font-semibold ">I&apos;m Ajmeri&#44;</h1>
@@ -40,7 +39,7 @@ function About() {
             <Link href={"#project"}>
               <Button
                 borderRadius="1.75rem"
-                icon={<FaArrowDown />}
+                icon={<FaArrowDown aria-hidden="true" />}
                 className="bg-white text-lg dark:bg-transparent text-black dark:text-white border-neutral-200 dark:border-slate-800"
               >
                 Projects
